@@ -1,0 +1,318 @@
+; Thu Nov 19 04:18:46 EET 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot id
+		(type INTEGER)
+		(range 1 10)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot in3
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot in4
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot Input
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+		(cardinality 2 2)
+		(create-accessor read-write))
+	(single-slot in1
+		(type INTEGER)
+		(range 0 31)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot in2
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot circuit_input2
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot circuit_input1
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot inverse_of_takes_sensor_input_from
+		(type INSTANCE)
+;+		(allowed-classes Sensor)
+		(create-accessor read-write))
+	(multislot takes_input_from
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+		(cardinality 1 2)
+;+		(inverse-slot gives_output_to)
+		(create-accessor read-write))
+	(single-slot Ontology_Class37
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot out
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot gives_output_to
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+		(cardinality 1 ?VARIABLE)
+;+		(inverse-slot takes_input_from)
+		(create-accessor read-write))
+	(single-slot m2
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot m1
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot m3
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot sendInputTo
+		(type INSTANCE)
+;+		(allowed-classes InputSensor)
+		(cardinality 0 4)
+		(create-accessor read-write))
+	(single-slot KB_305825_Class19
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Output
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot takes_sensor_input_from
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+;+		(cardinality 1 1)
+;+		(inverse-slot gives_output_to_sensor)
+		(create-accessor read-write))
+	(single-slot Ontology_Class46
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Indicator
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot gives_output_to_sensor
+		(type INSTANCE)
+;+		(allowed-classes Sensor)
+		(cardinality 4 4)
+;+		(inverse-slot takes_sensor_input_from)
+		(create-accessor read-write))
+	(single-slot sensor_name
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot circuit_name
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot out4
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot circuit_output
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Circuit
+	(is-a USER)
+	(role abstract)
+	(single-slot circuit_name
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot circuit_input2
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot takes_input_from
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+		(cardinality 1 2)
+		(create-accessor read-write))
+	(multislot gives_output_to
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot circuit_input1
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot gives_output_to_sensor
+		(type INSTANCE)
+;+		(allowed-classes Sensor)
+		(cardinality 4 4)
+		(create-accessor read-write))
+	(single-slot circuit_output
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Adder
+	(is-a Circuit)
+	(role concrete))
+
+(defclass Multiplier
+	(is-a Circuit)
+	(role concrete))
+
+(defclass Sensor
+	(is-a USER)
+	(role abstract)
+	(single-slot takes_sensor_input_from
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Indicator
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot sensor_name
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass InputSensor
+	(is-a Sensor)
+	(role concrete)
+	(single-slot takes_sensor_input_from
+		(type INSTANCE)
+;+		(allowed-classes Cycle)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass MidSensor
+	(is-a Sensor)
+	(role concrete)
+	(single-slot takes_sensor_input_from
+		(type INSTANCE)
+;+		(allowed-classes Circuit)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass OutputSensor
+	(is-a Sensor)
+	(role concrete)
+	(single-slot takes_sensor_input_from
+		(type INSTANCE)
+;+		(allowed-classes Circuit)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Cycle
+	(is-a USER)
+	(role concrete)
+	(multislot takes_input_from
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+		(cardinality 1 2)
+		(create-accessor read-write))
+	(single-slot out
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot id
+		(type INTEGER)
+		(range 1 10)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot gives_output_to
+		(type INSTANCE)
+;+		(allowed-classes Circuit Cycle)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot m2
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot m1
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot gives_output_to_sensor
+		(type INSTANCE)
+;+		(allowed-classes Sensor)
+		(cardinality 4 4)
+		(create-accessor read-write))
+	(single-slot m3
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot in3
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot in4
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot in1
+		(type INTEGER)
+		(range 0 31)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot in2
+		(type INTEGER)
+		(range 0 31)
+		(default 0)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))

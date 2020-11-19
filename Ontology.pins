@@ -1,0 +1,236 @@
+; Thu Nov 19 04:18:47 EET 2020
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([KB_305825_Class16] of  %3AINSTANCE-ANNOTATION
+
+	(%3ACREATION-TIMESTAMP "2020.11.18 08:04:46.509 EET")
+	(%3ACREATOR "Sotiris"))
+
+([KB_305825_Class17] of  %3AINSTANCE-ANNOTATION
+
+	(%3ACREATION-TIMESTAMP "2020.11.18 08:04:48.730 EET")
+	(%3ACREATOR "Sotiris"))
+
+([KB_305825_Class27] of  Cycle
+
+	(gives_output_to
+		[Ontology_Class49]
+		[Ontology_Class53]
+		[Ontology_Class57])
+	(gives_output_to_sensor
+		[Ontology_Class59]
+		[Ontology_Class60]
+		[Ontology_Class61]
+		[Ontology_Class62])
+	(id 1)
+	(in1 21)
+	(in2 28)
+	(in3 10)
+	(in4 25)
+	(m1 10)
+	(m2 24)
+	(m3 26)
+	(out 18)
+	(takes_input_from [Ontology_Class55]))
+
+([KB_305825_Class28] of  Cycle
+
+	(id 2)
+	(in1 7)
+	(in2 25)
+	(in3 13)
+	(in4 15)
+	(m1 0)
+	(m2 0)
+	(m3 3)
+	(out 3))
+
+([KB_305825_Class29] of  Cycle
+
+	(id 3)
+	(in1 11)
+	(in2 17)
+	(in3 24)
+	(in4 31)
+	(m1 22)
+	(m2 6)
+	(m3 8)
+	(out 14))
+
+([KB_305825_Class30] of  Cycle
+
+	(id 4)
+	(in1 18)
+	(in2 11)
+	(in3 28)
+	(in4 21)
+	(m1 4)
+	(m2 12)
+	(m3 12)
+	(out 0))
+
+([KB_305825_Class31] of  Cycle
+
+	(id 5)
+	(in1 25)
+	(in2 24)
+	(in3 30)
+	(in4 10)
+	(m1 18)
+	(m2 16)
+	(m3 12)
+	(out 12))
+
+([KB_305825_Class32] of  Cycle
+
+	(id 6)
+	(in1 12)
+	(in2 19)
+	(in3 11)
+	(in4 19)
+	(m1 8)
+	(m2 24)
+	(m3 17)
+	(out 9))
+
+([KB_305825_Class33] of  Cycle
+
+	(id 7)
+	(in1 1)
+	(in2 31)
+	(in3 7)
+	(in4 22)
+	(m1 2)
+	(m2 0)
+	(m3 26)
+	(out 26))
+
+([KB_305825_Class34] of  Cycle
+
+	(id 8)
+	(in1 0)
+	(in2 31)
+	(in3 3)
+	(in4 23)
+	(m1 0)
+	(m2 0)
+	(m3 0)
+	(out 0))
+
+([KB_305825_Class35] of  Cycle
+
+	(id 9)
+	(in1 31)
+	(in2 1)
+	(in3 6)
+	(in4 8)
+	(m1 30)
+	(m2 30)
+	(m3 0)
+	(out 30))
+
+([KB_305825_Class36] of  Cycle
+
+	(id 10)
+	(in1 6)
+	(in2 4)
+	(in3 25)
+	(in4 12)
+	(m1 12)
+	(m2 31)
+	(m3 12)
+	(out 28))
+
+([Ontology_Class49] of  Adder
+
+	(circuit_input1 21)
+	(circuit_input2 21)
+	(circuit_name "A1")
+	(circuit_output 10)
+	(gives_output_to [Ontology_Class53])
+	(gives_output_to_sensor [Ontology_Class52])
+	(takes_input_from [KB_305825_Class27]))
+
+([Ontology_Class52] of  MidSensor
+
+	(Indicator 10)
+	(sensor_name "M1")
+	(takes_sensor_input_from [Ontology_Class49]))
+
+([Ontology_Class53] of  Multiplier
+
+	(circuit_input1 28)
+	(circuit_input2 10)
+	(circuit_name "P1")
+	(circuit_output 24)
+	(gives_output_to [Ontology_Class55])
+	(gives_output_to_sensor [Ontology_Class54])
+	(takes_input_from
+		[Ontology_Class49]
+		[KB_305825_Class27]))
+
+([Ontology_Class54] of  MidSensor
+
+	(Indicator 24)
+	(sensor_name "M2")
+	(takes_sensor_input_from [Ontology_Class53]))
+
+([Ontology_Class55] of  Adder
+
+	(circuit_input1 24)
+	(circuit_input2 26)
+	(circuit_name "A2")
+	(circuit_output 18)
+	(gives_output_to [KB_305825_Class27])
+	(gives_output_to_sensor [Ontology_Class56])
+	(takes_input_from
+		[Ontology_Class53]
+		[Ontology_Class57]))
+
+([Ontology_Class56] of  OutputSensor
+
+	(Indicator 18)
+	(sensor_name "OUT")
+	(takes_sensor_input_from [Ontology_Class55]))
+
+([Ontology_Class57] of  Multiplier
+
+	(circuit_input1 10)
+	(circuit_input2 25)
+	(circuit_name "P2")
+	(circuit_output 26)
+	(gives_output_to [Ontology_Class55])
+	(gives_output_to_sensor [Ontology_Class58])
+	(takes_input_from [KB_305825_Class27]))
+
+([Ontology_Class58] of  MidSensor
+
+	(Indicator 26)
+	(sensor_name "M3")
+	(takes_sensor_input_from [Ontology_Class57]))
+
+([Ontology_Class59] of  InputSensor
+
+	(Indicator 21)
+	(sensor_name "IN1")
+	(takes_sensor_input_from [KB_305825_Class27]))
+
+([Ontology_Class60] of  InputSensor
+
+	(Indicator 28)
+	(sensor_name "IN2")
+	(takes_sensor_input_from [KB_305825_Class27]))
+
+([Ontology_Class61] of  InputSensor
+
+	(Indicator 10)
+	(sensor_name "IN3")
+	(takes_sensor_input_from [KB_305825_Class27]))
+
+([Ontology_Class62] of  InputSensor
+
+	(Indicator 25)
+	(sensor_name "IN4")
+	(takes_sensor_input_from [KB_305825_Class27]))
