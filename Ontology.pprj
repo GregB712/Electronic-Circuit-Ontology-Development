@@ -1,4 +1,4 @@
-; Thu Nov 19 04:18:47 EET 2020
+; Thu Nov 19 04:52:59 EET 2020
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -21,12 +21,12 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[Ontology_ProjectKB_Class450]
-		[Ontology_ProjectKB_Class451]
-		[Ontology_ProjectKB_Class452]
-		[Ontology_ProjectKB_Class453]
-		[Ontology_ProjectKB_Class454]
-		[Ontology_ProjectKB_Class455]))
+		[Ontology_ProjectKB_Class100]
+		[Ontology_ProjectKB_Class101]
+		[Ontology_ProjectKB_Class102]
+		[Ontology_ProjectKB_Class103]
+		[Ontology_ProjectKB_Class104]
+		[Ontology_ProjectKB_Class105]))
 
 ([CLSES_TAB] of  Widget
 
@@ -71,6 +71,9 @@
 	(is_hidden FALSE)
 	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
 
+([KB_910902_Class7] of  Map
+)
+
 ([KB_926492_Class0] of  String
 
 	(name "factory_class_name")
@@ -79,69 +82,13 @@
 ([KB_926492_Class1] of  Map
 
 	(entries
-		[Ontology_ProjectKB_Class456]
-		[Ontology_ProjectKB_Class457]
-		[Ontology_ProjectKB_Class461]
-		[Ontology_ProjectKB_Class462])
-	(referenced_maps [Ontology_ProjectKB_Class458]))
+		[Ontology_ProjectKB_Class106]
+		[Ontology_ProjectKB_Class107]
+		[Ontology_ProjectKB_Class111]
+		[Ontology_ProjectKB_Class112])
+	(referenced_maps [Ontology_ProjectKB_Class108]))
 
 ([KB_926492_Class10] of  Property_List
-)
-
-([KB_926492_Class102] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "input")
-	(property_list [KB_926492_Class103])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 0))
-
-([KB_926492_Class103] of  Property_List
-)
-
-([KB_926492_Class104] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "input")
-	(property_list [KB_926492_Class105])
-	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget")
-	(width 200)
-	(x 0)
-	(y 0))
-
-([KB_926492_Class105] of  Property_List
-)
-
-([KB_926492_Class106] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "input")
-	(property_list [KB_926492_Class107])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget")
-	(width 200)
-	(x 0)
-	(y 0))
-
-([KB_926492_Class107] of  Property_List
-)
-
-([KB_926492_Class108] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "input")
-	(property_list [KB_926492_Class109])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
-	(width 100)
-	(x 0)
-	(y 0))
-
-([KB_926492_Class109] of  Property_List
 )
 
 ([KB_926492_Class11] of  Widget
@@ -150,133 +97,7 @@
 	(property_list [KB_926492_Class12])
 	(widget_class_name "uk.ac.man.cs.mig.coode.debugger.test.DebuggerTestTab"))
 
-([KB_926492_Class110] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "input")
-	(property_list [KB_926492_Class111])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget")
-	(width 200)
-	(x 0)
-	(y 0))
-
-([KB_926492_Class111] of  Property_List
-)
-
-([KB_926492_Class112] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "input")
-	(property_list [KB_926492_Class113])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
-	(width 100)
-	(x 0)
-	(y 0))
-
-([KB_926492_Class113] of  Property_List
-)
-
-([KB_926492_Class114] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "in1")
-	(property_list [KB_926492_Class115])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget")
-	(width 200)
-	(x 0)
-	(y 0))
-
-([KB_926492_Class115] of  Property_List
-)
-
-([KB_926492_Class116] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "output")
-	(property_list [KB_926492_Class117])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 120))
-
-([KB_926492_Class117] of  Property_List
-)
-
-([KB_926492_Class118] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "output")
-	(property_list [KB_926492_Class119])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
-	(width 100)
-	(x 0)
-	(y 120))
-
-([KB_926492_Class119] of  Property_List
-)
-
 ([KB_926492_Class12] of  Property_List
-)
-
-([KB_926492_Class120] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "output")
-	(property_list [KB_926492_Class121])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget")
-	(width 200)
-	(x 0)
-	(y 120))
-
-([KB_926492_Class121] of  Property_List
-)
-
-([KB_926492_Class122] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "midsensors")
-	(property_list [KB_926492_Class123])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 240))
-
-([KB_926492_Class123] of  Property_List
-)
-
-([KB_926492_Class124] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "midsensors")
-	(property_list [KB_926492_Class125])
-	(widget_class_name "edu.stanford.smi.protege.widget.StringListWidget")
-	(width 200)
-	(x 0)
-	(y 240))
-
-([KB_926492_Class125] of  Property_List
-)
-
-([KB_926492_Class126] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "out")
-	(property_list [KB_926492_Class127])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget")
-	(width 200)
-	(x 0)
-	(y 240))
-
-([KB_926492_Class127] of  Property_List
 )
 
 ([KB_926492_Class128] of  Property_List
@@ -292,118 +113,7 @@
 	(property_list [KB_926492_Class14])
 	(widget_class_name "ezpal.EZPalTab"))
 
-([KB_926492_Class130] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "in1")
-	(property_list [KB_926492_Class131])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
-	(width 100)
-	(x 0)
-	(y 360))
-
-([KB_926492_Class131] of  Property_List
-)
-
-([KB_926492_Class132] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "Input")
-	(property_list [KB_926492_Class133])
-	(widget_class_name "edu.stanford.smi.protege.widget.IntegerListWidget")
-	(width 200)
-	(x 0)
-	(y 420))
-
-([KB_926492_Class133] of  Property_List
-)
-
-([KB_926492_Class134] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "KB_305825_Class19")
-	(property_list [KB_926492_Class135])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 420))
-
-([KB_926492_Class135] of  Property_List
-)
-
-([KB_926492_Class136] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "in2")
-	(property_list [KB_926492_Class137])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 420))
-
-([KB_926492_Class137] of  Property_List
-)
-
-([KB_926492_Class138] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "in2")
-	(property_list [KB_926492_Class139])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 420))
-
-([KB_926492_Class139] of  Property_List
-
-	(properties
-		[KB_926492_Class140]
-		[KB_926492_Class141]))
-
 ([KB_926492_Class14] of  Property_List
-)
-
-([KB_926492_Class140] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([KB_926492_Class141] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([KB_926492_Class144] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "in3")
-	(property_list [KB_926492_Class145])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 480))
-
-([KB_926492_Class145] of  Property_List
-)
-
-([KB_926492_Class148] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "in4")
-	(property_list [KB_926492_Class149])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 540))
-
-([KB_926492_Class149] of  Property_List
 )
 
 ([KB_926492_Class15] of  Widget
@@ -412,63 +122,7 @@
 	(property_list [KB_926492_Class16])
 	(widget_class_name "edu.stanford.smi.protegex.server_changes.prompt.UsersTab"))
 
-([KB_926492_Class154] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "out2")
-	(property_list [KB_926492_Class155])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 660))
-
-([KB_926492_Class155] of  Property_List
-)
-
-([KB_926492_Class158] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "out3")
-	(property_list [KB_926492_Class159])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 720))
-
-([KB_926492_Class159] of  Property_List
-)
-
 ([KB_926492_Class16] of  Property_List
-)
-
-([KB_926492_Class162] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "out4")
-	(property_list [KB_926492_Class163])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 780))
-
-([KB_926492_Class163] of  Property_List
-)
-
-([KB_926492_Class166] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "id")
-	(property_list [KB_926492_Class167])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 840))
-
-([KB_926492_Class167] of  Property_List
 )
 
 ([KB_926492_Class17] of  Widget
@@ -495,9 +149,6 @@
 	(is_hidden TRUE)
 	(property_list [KB_926492_Class20])
 	(widget_class_name "edu.stanford.smi.protege.widget.instance_tree.InstanceTreeTab"))
-
-([KB_926492_Class2] of  Map
-)
 
 ([KB_926492_Class20] of  Property_List
 )
@@ -874,452 +525,87 @@
 	(name "layout properties")
 	(properties [VERTICAL_STRETCHER]))
 
-([Ontology_ProjectKB_Class172] of  String
-
-	(name "SearchTab_Query"))
-
-([Ontology_ProjectKB_Class194] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "sendInfoTo")
-	(property_list [Ontology_ProjectKB_Class195])
-	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
-	(width 200)
-	(x 0)
-	(y 900))
-
-([Ontology_ProjectKB_Class195] of  Property_List
-)
-
-([Ontology_ProjectKB_Class196] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "sendInputTo")
-	(property_list [Ontology_ProjectKB_Class197])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 900))
-
-([Ontology_ProjectKB_Class197] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class198]
-		[Ontology_ProjectKB_Class199]))
-
-([Ontology_ProjectKB_Class198] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class199] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class200] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "sendInputTo")
-	(property_list [Ontology_ProjectKB_Class201])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
-	(width 200)
-	(x 0)
-	(y 900))
-
-([Ontology_ProjectKB_Class201] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class202]
-		[Ontology_ProjectKB_Class203]))
-
-([Ontology_ProjectKB_Class202] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class203] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class204] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "sendInputTo")
-	(property_list [Ontology_ProjectKB_Class205])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 900))
-
-([Ontology_ProjectKB_Class205] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class206]
-		[Ontology_ProjectKB_Class207]))
-
-([Ontology_ProjectKB_Class206] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class207] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class208] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "sendInputTo")
-	(property_list [Ontology_ProjectKB_Class209])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
-	(width 200)
-	(x 0)
-	(y 900))
-
-([Ontology_ProjectKB_Class209] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class210]
-		[Ontology_ProjectKB_Class211]))
-
-([Ontology_ProjectKB_Class210] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class211] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class212] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "in1")
-	(property_list [Ontology_ProjectKB_Class213])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 1020))
-
-([Ontology_ProjectKB_Class213] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class214]
-		[Ontology_ProjectKB_Class215]))
-
-([Ontology_ProjectKB_Class214] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class215] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class218] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "gives_output_to")
-	(property_list [Ontology_ProjectKB_Class219])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 1080))
-
-([Ontology_ProjectKB_Class219] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class220]
-		[Ontology_ProjectKB_Class221]))
-
-([Ontology_ProjectKB_Class220] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class221] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class237] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "inverse_of_takes_sensor_input_from")
-	(property_list [Ontology_ProjectKB_Class238])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 1200))
-
-([Ontology_ProjectKB_Class238] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class239]
-		[Ontology_ProjectKB_Class240]))
-
-([Ontology_ProjectKB_Class239] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class240] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class241] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "inverse_of_takes_sensor_input_from")
-	(property_list [Ontology_ProjectKB_Class242])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
-	(width 200)
-	(x 0)
-	(y 1200))
-
-([Ontology_ProjectKB_Class242] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class243]
-		[Ontology_ProjectKB_Class244]))
-
-([Ontology_ProjectKB_Class243] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class244] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class249] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "gives_output_to_sensor")
-	(property_list [Ontology_ProjectKB_Class250])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 1440))
-
-([Ontology_ProjectKB_Class250] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class251]
-		[Ontology_ProjectKB_Class252]))
-
-([Ontology_ProjectKB_Class251] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class252] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class253] of  Widget
-
-	(height 120)
-	(is_hidden FALSE)
-	(name "gives_output_to_sensor")
-	(property_list [Ontology_ProjectKB_Class254])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
-	(width 200)
-	(x 0)
-	(y 1440))
-
-([Ontology_ProjectKB_Class254] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class255]
-		[Ontology_ProjectKB_Class256]))
-
-([Ontology_ProjectKB_Class255] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class256] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class257] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "gives_output_to_sensor")
-	(property_list [Ontology_ProjectKB_Class258])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 1440))
-
-([Ontology_ProjectKB_Class258] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class259]
-		[Ontology_ProjectKB_Class260]))
-
-([Ontology_ProjectKB_Class259] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class260] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class309] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "gives_output_to_sensor")
-	(property_list [Ontology_ProjectKB_Class310])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 0)
-	(y 120))
-
-([Ontology_ProjectKB_Class310] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class311]
-		[Ontology_ProjectKB_Class312]))
-
-([Ontology_ProjectKB_Class311] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class312] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class345] of  Widget
-
-	(height 60)
-	(is_hidden FALSE)
-	(name "gives_output_to_sensor")
-	(property_list [Ontology_ProjectKB_Class346])
-	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
-	(width 200)
-	(x 200)
-	(y 0))
-
-([Ontology_ProjectKB_Class346] of  Property_List
-
-	(properties
-		[Ontology_ProjectKB_Class347]
-		[Ontology_ProjectKB_Class348]))
-
-([Ontology_ProjectKB_Class347] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-View References to Value"))
-
-([Ontology_ProjectKB_Class348] of  Boolean
-
-	(boolean_value FALSE)
-	(name "ButtonDisplayed-Delete Instance"))
-
-([Ontology_ProjectKB_Class450] of  String
+([Ontology_ProjectKB_Class100] of  String
 
 	(name ":INSTANCE-ANNOTATION")
 	(string_value "%3AANNOTATION-TEXT"))
 
-([Ontology_ProjectKB_Class451] of  String
-
-	(name "Circuit")
-	(string_value "circuit_name"))
-
-([Ontology_ProjectKB_Class452] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
-
-([Ontology_ProjectKB_Class453] of  String
+([Ontology_ProjectKB_Class101] of  String
 
 	(name ":PAL-CONSTRAINT")
 	(string_value "%3APAL-NAME"))
 
-([Ontology_ProjectKB_Class454] of  String
+([Ontology_ProjectKB_Class102] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([Ontology_ProjectKB_Class103] of  String
+
+	(name "Circuit")
+	(string_value "circuit_name"))
+
+([Ontology_ProjectKB_Class104] of  String
 
 	(name "Cycle")
 	(string_value "id"))
 
-([Ontology_ProjectKB_Class455] of  String
+([Ontology_ProjectKB_Class105] of  String
 
 	(name "Sensor")
 	(string_value "sensor_name"))
 
-([Ontology_ProjectKB_Class456] of  Map_Entry
+([Ontology_ProjectKB_Class106] of  Map_Entry
 
 	(key "add_name_on_instance_form")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
 
-([Ontology_ProjectKB_Class457] of  Map_Entry
+([Ontology_ProjectKB_Class107] of  Map_Entry
 
 	(key "change_tracking_active")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
 
-([Ontology_ProjectKB_Class458] of  Map
+([Ontology_ProjectKB_Class108] of  Map
 
 	(entries
-		[Ontology_ProjectKB_Class459]
-		[Ontology_ProjectKB_Class460]))
+		[Ontology_ProjectKB_Class109]
+		[Ontology_ProjectKB_Class110]))
 
-([Ontology_ProjectKB_Class459] of  Map_Entry
+([Ontology_ProjectKB_Class109] of  Map_Entry
 
 	(key "KB_305825_Class16")
 	(key_class "edu.stanford.smi.protege.model.Frame")
 	(value "71 91 202 124")
 	(value_class "java.awt.Rectangle"))
 
-([Ontology_ProjectKB_Class460] of  Map_Entry
+([Ontology_ProjectKB_Class110] of  Map_Entry
 
 	(key "KB_305825_Class17")
 	(key_class "edu.stanford.smi.protege.model.Frame")
 	(value "356 31 202 124")
 	(value_class "java.awt.Rectangle"))
 
-([Ontology_ProjectKB_Class461] of  Map_Entry
+([Ontology_ProjectKB_Class111] of  Map_Entry
 
 	(key "InstanceDisplay.yellow_stickies")
 	(key_class "java.lang.String")
-	(value "Ontology_ProjectKB_Class458")
+	(value "Ontology_ProjectKB_Class108")
 	(value_class "java.util.Map"))
 
-([Ontology_ProjectKB_Class462] of  Map_Entry
+([Ontology_ProjectKB_Class112] of  Map_Entry
 
 	(key "suppress_instance_counting")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
+
+([Ontology_ProjectKB_Class172] of  String
+
+	(name "SearchTab_Query"))
 
 ([option_instance] of  Options
 
@@ -1400,8 +686,8 @@
 	(browser_slot_names [BROWSER_SLOT_NAMES])
 	(customized_instance_widgets
 		[INSTANCE_ANNOTATION_FORM_WIDGET]
-		[STANDARD_FACET_FORM_WIDGET]
 		[STANDARD_SLOT_FORM_WIDGET]
+		[STANDARD_FACET_FORM_WIDGET]
 		[PAL_FORM_WIDGET]
 		[STANDARD_CLASS_FORM_WIDGET])
 	(default_cls_metaclass ":STANDARD-CLASS")
